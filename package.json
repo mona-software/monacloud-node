@@ -1,0 +1,41 @@
+{
+  "name": "monacloud-cloud-sdk",
+  "version": "0.1.0",
+  "description": "SDK Node.js zero-dependency cho MONA Cloud",
+  "type": "module",
+  "main": "./index.cjs",
+  "module": "./index.js",
+  "types": "./index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./index.d.ts",
+      "import": "./index.js",
+      "require": "./index.cjs"
+    }
+  },
+  "files": [
+    "index.cjs",
+    "index.js",
+    "index.d.ts",
+    "docs",
+    "README.md",
+    "CHANGELOG.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node --test",
+    "test:local": "node scripts/local-mock.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "keywords": [
+    "monacloud",
+    "cloud",
+    "vps",
+    "database",
+    "mona"
+  ],
+  "license": "MIT",
+  "homepage": "https://monacloud.vn/ai-agent"
+}
