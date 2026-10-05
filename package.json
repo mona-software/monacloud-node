@@ -1,6 +1,6 @@
 {
   "name": "monacloud-cloud-sdk",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "SDK Node.js zero-dependency cho MONA Cloud",
   "type": "module",
   "main": "./index.cjs",
@@ -37,5 +37,13 @@
     "mona"
   ],
   "license": "MIT",
-  "homepage": "https://monacloud.vn/ai-agent"
+  "homepage": "https://monacloud.vn/ai-agent",
+  "author": "MONA Software",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mona-software/monacloud-node.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mona-software/monacloud-node/issues"
+  }
 }
